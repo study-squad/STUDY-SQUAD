@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Squad | Tuition by Ms Fatima | Nursery to Std 8, ICSE &amp; SSC</title>
+<meta name="description" content="Tuition classes by Ms Fatima for Nursery to Std 8, ICSE and SSC boards, all subjects. Offline batches near Minara Masjid.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#3b1646; --orchid:#8e3f94; --rose:#d6457f; --blush:#fde8f0; --paper:#fff9fb; --ink:#2a1530;
+  --serif:'Fraunces',Georgia,serif; --sans:'Nunito',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.65;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+/* header */
+header{background:var(--plum);color:#fff}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 20px;max-width:1040px;margin:0 auto;flex-wrap:wrap}
+.logo{font-family:var(--serif);font-weight:800;font-size:1.25rem;text-decoration:none}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-weight:600;font-size:.95rem}
+nav a{text-decoration:none;opacity:.9}
+nav a:hover{opacity:1;text-decoration:underline}
+
+/* hero */
+.hero{background:var(--plum);color:#fff;padding:48px 0 0;overflow:hidden}
+.hero h1{font-family:var(--serif);font-weight:800;font-size:clamp(2.2rem,6vw,4rem);line-height:1.08;max-width:14ch}
+.hero p{max-width:46ch;margin:18px 0 26px;font-size:1.1rem;color:#f3d9ea}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--rose)}
+.btn.main{background:var(--rose);color:#fff}
+.btn.ghost{color:#fff;border-color:#c9a1d1}
+.btn:hover{filter:brightness(1.1)}
+.steps{display:flex;align-items:flex-end;gap:6px;margin-top:44px;overflow-x:auto;padding-bottom:0}
+.steps span{flex:1 0 74px;background:var(--blush);color:var(--plum);font-weight:700;font-size:.85rem;text-align:center;padding:10px 4px;border-radius:12px 12px 0 0}
+.steps span:nth-child(1){height:56px}.steps span:nth-child(2){height:68px}.steps span:nth-child(3){height:80px}
+.steps span:nth-child(4){height:92px}.steps span:nth-child(5){height:104px}.steps span:nth-child(6){height:116px}
+.steps span:nth-child(7){height:128px}.steps span:nth-child(8){height:140px}.steps span:nth-child(9){height:152px}
+.steps span:nth-child(10),.steps span:nth-child(11){background:#f4b6d0}
+.steps span:nth-child(10){height:164px}.steps span:nth-child(11){height:176px}
+
+/* sections */
+section{padding:64px 0}
+h2{font-family:var(--serif);font-size:clamp(1.8rem,4vw,2.5rem);color:var(--plum);line-height:1.15;margin-bottom:12px}
+.lead{max-width:60ch;margin-bottom:32px;color:#5a4262}
+.tint{background:var(--blush)}
+
+/* classes */
+.levels{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.level{background:#fff;border-radius:22px 22px 22px 4px;padding:26px;border:2px solid #f0cfe0}
+.level h3{font-family:var(--serif);font-size:1.4rem;color:var(--orchid)}
+.level .grades{font-weight:700;color:var(--rose);margin-bottom:10px}
+.level ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.level li{background:var(--blush);color:var(--plum);padding:5px 13px;border-radius:999px;font-size:.92rem;font-weight:600}
+.boards{margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.boards strong{color:var(--plum)}
+.pill{background:var(--plum);color:#fff;padding:6px 18px;border-radius:999px;font-weight:700}
+
+/* fees */
+.table-box{overflow-x:auto;background:#fff;border-radius:18px;border:2px solid #f0cfe0}
+table{width:100%;border-collapse:collapse;min-width:560px}
+th,td{padding:15px 18px;text-align:left}
+th{background:var(--plum);color:#fff;font-weight:700}
+tr:not(:last-child) td{border-bottom:1px solid #f3dce7}
+td:first-child{font-weight:700;color:var(--plum)}
+.note{margin-top:16px;font-size:.95rem;color:#5a4262}
+.extras{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:28px}
+.extras div{background:#fff;border-left:5px solid var(--rose);padding:16px 18px;border-radius:4px 14px 14px 4px}
+.extras b{display:block;color:var(--plum)}
+
+/* contact */
+footer{background:var(--plum);color:#f3d9ea;padding:52px 0 28px}
+footer h2{color:#fff}
+.contact{display:grid;gap:12px;margin:18px 0 26px}
+.contact a{color:#fff;font-weight:700}
+.small{font-size:.85rem;opacity:.7;margin-top:28px}
+.ph{background:#fff3b0;color:#3b1646;padding:0 5px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="logo" href="#top">Study Squad</a>
+    <nav aria-label="Main">
+      <a href="#classes">Classes &amp; subjects</a>
+      <a href="#fees">Fees &amp; timings</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Learning that grows with your child</h1>
+      <p>Tuition by Ms Fatima for Nursery to Std 8 in ICSE and SSC boards. Every subject, taught with personal attention.</p>
+      <div class="btns">
+        <a class="btn main" href="#contact">Book a trial class</a>
+        <a class="btn ghost" href="#fees">See fees &amp; timings</a>
+      </div>
+      <div class="steps" aria-label="Classes taught: Nursery to Std 8">
+        <span>Nursery</span><span>Jr KG</span><span>Sr KG</span><span>Std 1</span><span>Std 2</span><span>Std 3</span><span>Std 4</span><span>Std 5</span><span>Std 6</span><span>Std 7</span><span>Std 8</span>
+      </div>
+    </div>
+  </div>
+
+  <section id="classes">
+    <div class="wrap">
+      <h2>Classes and subjects</h2>
+      <p class="lead">Every subject is covered for both ICSE and SSC, with homework help, revision, and regular tests.</p>
+      <div class="levels">
+        <article class="level">
+          <h3>Pre-primary</h3>
+          <p class="grades">Nursery, Jr KG, Sr KG</p>
+          <p>Gentle, activity-based learning to build reading, writing, and number skills.</p>
+          <ul><li>All subjects</li><li>English</li><li>Numbers</li><li>Phonics</li><li>Handwriting</li><li>Rhymes</li></ul>
+        </article>
+        <article class="level">
+          <h3>Primary</h3>
+          <p class="grades">Std 1 to Std 4</p>
+          <p>Strong basics in language and maths, with daily practice and concept clarity.</p>
+          <ul><li>All subjects</li><li>English</li><li>Maths</li><li>EVS</li><li>Hindi</li><li>Marathi</li></ul>
+        </article>
+        <article class="level">
+          <h3>Upper primary</h3>
+          <p class="grades">Std 5 to Std 8</p>
+          <p>Syllabus coverage, exam preparation, and help with projects and written answers.</p>
+          <ul><li>All subjects</li><li>English</li><li>Maths</li><li>Science</li><li>History &amp; Civics</li><li>Geography</li><li>Hindi</li><li>Marathi</li></ul>
+        </article>
+      </div>
+      <div class="boards">
+        <strong>Boards covered:</strong><span class="pill">ICSE</span><span class="pill">SSC</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="fees" class="tint">
+    <div class="wrap">
+      <h2>Fees and batch timings</h2>
+      <p class="lead">Two daily batches, held offline near Minara Masjid. Pick the one that suits your child.</p>
+      <div class="table-box">
+        <table>
+          <thead><tr><th>Batch</th><th>Timing</th><th>Classes</th><th>Fees</th></tr></thead>
+          <tbody>
+            <tr><td>Batch 1</td><td>5:00 pm to 7:00 pm</td><td>Nursery to Std 8</td><td>Contact for fees</td></tr>
+            <tr><td>Batch 2</td><td>7:00 pm to 9:00 pm</td><td>Nursery to Std 8</td><td>Contact for fees</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Fees depend on your child's class and board. Message on WhatsApp to confirm fees and seat availability.</p>
+      <div class="extras">
+        <div><b>Location</b>Offline, near Minara Masjid</div>
+        <div><b>Subjects</b>Every subject, ICSE and SSC</div>
+        <div><b>Admission</b>Start with a trial class</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Book a trial class</h2>
+    <p>Message Ms Fatima on WhatsApp to book a trial class or ask about fees.</p>
+    <div class="contact">
+      <span>Phone: <a href="tel:+917977601166">+91 79776 01166</a></span>
+      <span>WhatsApp: <a href="https://wa.me/917977601166?text=Hello%20Ms%20Fatima%2C%20I%20want%20to%20ask%20about%20fees.">Send a message</a></span>
+      <span>Address: Near Minara Masjid</span>
+    </div>
+    <a class="btn main" href="https://wa.me/917977601166?text=Hello%20Ms%20Fatima%2C%20I%20want%20to%20book%20a%20trial%20class.">Message on WhatsApp</a>
+    <p class="small">&copy; 2026 Study Squad, tuition by Ms Fatima.</p>
+  </div>
+</footer>
+
+</body>
+</html>
